@@ -1,0 +1,76 @@
+{
+  "id": "screen-gallery",
+  "name": "Galería de UI",
+  "version": "1.0.0",
+  "apiVersion": 14,
+  "entry": "plugin.js",
+  "description": "Ejemplo de pantalla de plugin: todos los componentes del kit de pantallas en una galería con demostraciones interactivas, para teléfono y TV",
+  "author": "kinotvapp",
+  "homepage": "https://github.com/kinotvapp/kino-plugin-ui-gallery",
+  "discoverable": false,
+  "hosts": [
+    "kinotvapp.github.io"
+  ],
+  "capabilities": [
+    "screen"
+  ],
+  "settings": [
+    {
+      "key": "greeting",
+      "label": "Saludo",
+      "labelEn": "Greeting",
+      "type": "text",
+      "hint": "Hola",
+      "hintEn": "Hello"
+    },
+    {
+      "key": "density",
+      "label": "Densidad",
+      "labelEn": "Density",
+      "type": "select",
+      "default": "normal",
+      "options": [
+        {
+          "value": "compact",
+          "label": "Compacta",
+          "labelEn": "Compact"
+        },
+        {
+          "value": "normal",
+          "label": "Normal",
+          "labelEn": "Normal"
+        },
+        {
+          "value": "roomy",
+          "label": "Amplia",
+          "labelEn": "Roomy"
+        }
+      ]
+    },
+    {
+      "key": "tips",
+      "label": "Mostrar consejos",
+      "labelEn": "Show tips",
+      "type": "toggle",
+      "default": true
+    }
+  ],
+  "screen": {
+    "label": "Galería UI",
+    "labelEn": "UI gallery",
+    "icon": "magic",
+    "menuOpens": "screen",
+    "opensFrom": [
+      "menu",
+      "settings"
+    ],
+    "settingsButton": {
+      "label": "Abrir la galería",
+      "labelEn": "Open the gallery"
+    }
+  },
+  "signature": {
+    "authorKey": "82b87b938e0a95b142467c815a8823cb54310a13a828c3c4c77b1eda43294ae6",
+    "value": "35429e672dc07bacf783815a380a9ea360e45d87c110ceaeb8c1839852c4088d236401a3e58de93fa897285d05f19a6c428ffd54280905a689510abf17793905"
+  }
+}
