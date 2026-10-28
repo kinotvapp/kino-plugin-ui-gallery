@@ -1,7 +1,7 @@
 {
   "id": "screen-gallery",
   "name": "Galería de UI",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "apiVersion": 14,
   "entry": "plugin.js",
   "description": "Ejemplo de pantalla de plugin: todos los componentes del kit de pantallas en una galería con demostraciones interactivas, para teléfono y TV",
@@ -71,6 +71,6 @@
   },
   "signature": {
     "authorKey": "82b87b938e0a95b142467c815a8823cb54310a13a828c3c4c77b1eda43294ae6",
-    "value": "35429e672dc07bacf783815a380a9ea360e45d87c110ceaeb8c1839852c4088d236401a3e58de93fa897285d05f19a6c428ffd54280905a689510abf17793905"
+    "value": "add7e7d4f8d51b81914aef66b393288ac9046d14cb0a14fccef2922cbf77c1ad9619772a82d65fe1dc8b5e4c0f78a206945987b24f4292f45e174062eebaae01"
   }
 }

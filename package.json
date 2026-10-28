@@ -1,0 +1,13 @@
+{
+  "name": "kino-plugin-ui-gallery",
+  "private": true,
+  "type": "module",
+  "description": "Kino UI gallery: every plugin screen component with a live example. Source in src/, bundled into the single plugin.js Kino reads.",
+  "scripts": {
+    "build": "esbuild src/plugin.js --bundle --format=esm --target=es2020 --outfile=plugin.js",
+    "test": "node --test test/*.test.mjs",
+    "validate": "npm run build && node sdk/validate.mjs . --repo kinotvapp/kino-plugin-ui-gallery",
+    "sign": "npm run build && node scripts/sign.mjs"
+  },
+  "devDependencies": { "esbuild": "^0.21.0" }
+}
